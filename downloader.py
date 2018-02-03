@@ -369,6 +369,4 @@ def main(argv):
 
 
 if __name__ == "__main__":
-    reload(sys)
-    sys.setdefaultencoding('utf8')
     main(sys.argv[1:])
